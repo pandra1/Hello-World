@@ -1,4 +1,4 @@
-```yaml
+yaml
    name: CI/CD Pipeline
 
    on:
@@ -32,4 +32,4 @@
            with:
              github_token: ${{ secrets.GITHUB_TOKEN }}
              publish_dir: ./public
-   ```
+   
